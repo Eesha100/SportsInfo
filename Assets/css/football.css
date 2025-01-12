@@ -1,0 +1,193 @@
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #5c0000, #5c0000);
+    color: #000000;
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Container styling */
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    animation: slideIn 1s ease-in-out;
+    position: relative;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 200px;
+    height: 3px;
+    background: #000000;
+    transform: translateX(-50%);
+    animation: glow 1.5s infinite alternate;
+}
+
+/* Subheadings */
+h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    display: inline-block;
+    animation: fadeInFromLeft 1s ease;
+}
+
+/* Paragraphs and lists */
+p, li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #000000;
+    animation: fadeInFromRight 1s ease;
+}
+
+/* List styling */
+ul {
+    padding-left: 20px;
+    animation: zoomIn 1.5s ease;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Buttons or links */
+a.button {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #000000;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+a.button:hover {
+    background: #000000;
+    transform: scale(1.1);
+    animation: bounce 0.5s infinite alternate;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes glow {
+    from {
+        background: #000000;
+        box-shadow: 0 0 10px #000000;
+    }
+    to {
+        background: #000000;
+        box-shadow: 0 0 20px #000000;
+    }
+}
+
+@keyframes fadeInFromLeft {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromRight {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.player {
+    background: #5c0000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.player p {
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(255, 141, 141);
+}
+
+.player:hover {
+    transform: scale(1.05);
+}
