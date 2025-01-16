@@ -3,127 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VOLLEYBALL</title>
-    <link rel="stylesheet" href="Assets/css/volley.css">
-    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Contact Us</title>
     <link rel="stylesheet" href="Bootstrap\css\bootstrap.min.css">
-
+    <link rel="stylesheet" href="Assets\css\style.css">
+    <link rel="stylesheet" href="Assets\css\sports.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
-
-    <div class="container-fluid" style="background-color: rgb(207, 113, 118)">
-
-        <h1 class="head" style="margin-left: 75px; margin-top: 20px; color: rgb(0, 0, 0); font-size: 40px; font-family: roboto">VOLLEYBALL</h1>
-
-        <div class="start" style="color: rgb(0, 0, 0);">
-        <h2 style="font-size: 30px; font-family: roboto;">1. Number of Players</h2>
-
-        <p style="font-size: 18px; font-family: roboto">Volleyball is played with <b> 6 players per team </b> on the court at a time, making it a 6v6 game. Substitutes are also allowed, depending on the competition rules.</p>
-
-        <h2 style="margin-top: 30px; font-size: 32px; font-family: roboto;">2. Strategy of the Game</h2>
-
-        <p  style="font-size: 18px; font-family: roboto;">Volleyball strategy focuses on effective teamwork and skillful execution of specific techniques:</p>
-
-        <ul style="margin: 15px; list-style-type: disc;font-size: 18px; font-family: roboto;">
-            <li><b>Serving:</b> Players aim to deliver tough serves to disrupt the opposing team's reception.
+  <nav>
+    <div class="upper-section">
+        <div class="logo-container">
+           <a href="index.html"><img src="Assets\images\SportsInfo__1_-removebg-preview.png" alt="logo"></a> 
+        </div>
+        <div class="search-container">
+          <div class="dropdown">
+            <input class="search-box dropbtn" type="text" placeholder="Search...">
+            <div class="dropdown-content">
+              <a class="dropdown-item" href="football.html">Football</a>
+              <a class="dropdown-item" href="judo.html">Judo</a>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <a class="dropdown-item" href="tennis.html">Tennis</a>
+              <a class="dropdown-item" href="motorcycle.html">Motorcycle Racing</a>
+              <a class="dropdown-item" href="Volleyball.html">Volleyball</a>
+              <a class="dropdown-item" href="Golf.html">Golf</a>
+              <a class="dropdown-item" href="Chess.html">Chess</a>
+              <a class="dropdown-item" href="Billiards.html">Billiards</a>
+              <a class="dropdown-item" href="badminton.html">Badminton</a>
+              <a class="dropdown-item" href="swimming.html">Swimming</a>
+              <a class="dropdown-item" href="athletics.html">Athletics</a>
+            </div>
+          </div>
+          
+            <button type="submit" class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <!-- <input type="checkbox" id="check"> -->
+        <!-- <label for="check" class="checkbtn"><i class="fa-solid fa-bars"></i></label> -->
+    </div>
+    <div class="lower-section">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="fa-solid fa-bars"></i></label>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Categories</a>
+                <div class="dropdown-content">
+                  <a class="dropdown-item" href="football.html">Football</a>
+                  <a class="dropdown-item" href="judo.html">Judo</a>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <a class="dropdown-item" href="tennis.html">Tennis</a>
+                  <a class="dropdown-item" href="motorcycle.html">Motorcycle Racing</a>
+                  <a class="dropdown-item" href="Volleyball.html">Volleyball</a>
+                  <a class="dropdown-item" href="Golf.html">Golf</a>
+                  <a class="dropdown-item" href="Chess.html">Chess</a>
+                  <a class="dropdown-item" href="Billiards.html">Billiards</a>
+                  <a class="dropdown-item" href="badminton.html">Badminton</a>
+                  <a class="dropdown-item" href="swimming.html">Swimming</a>
+                  <a class="dropdown-item" href="athletics.html">Athletics</a>
+                </div>
             </li>
-            <li><b>Blocking:</b>  Front-row players attempt to block spikes from the opposing team.</li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Guest Book</a>
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Guest Book</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=name>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Feedback</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Review:</label>
+          <input type="checkbox">Excellent
+          <input type="checkbox">Good
+          <input type="checkbox">Average
+          <input type="checkbox">Fair
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="submit()">Submit</button>
+      </div>
+    </div>
+  </div>
+</div></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid sports-section">
+
+    <div class="container-fluid sp-img"><h1 class="sport-title">VOLLEYBALL</h1></div>
+
+    <div class="sport-content">
+
+        <h2 class="section-title">1. Number of Players</h2>
+        <p class="section-description">Volleyball is played with <b> 6 players per team </b> on the court at a time, making it a 6v6 game. Substitutes are also allowed, depending on the competition rules.</p>
+
+        <h2 class="section-title">2. Strategy of the Game</h2>
+        <p class="section-description">Volleyball strategy focuses on effective teamwork and skillful execution of specific techniques:</p>
+
+        <ul class="strategy-list sp-list">
+            <li><b>Serving:</b> Players aim to deliver tough serves to disrupt the opposing team's reception.</li>
+            <li><b>Blocking:</b> Front-row players attempt to block spikes from the opposing team.</li>
             <li><b>Set Plays:</b> Front-row players attempt to block spikes from the opposing team.</li>
-            <li><b>Defense: </b> Players position themselves to anticipate and dig spikes or receive serves.</li>
+            <li><b>Defense:</b> Players position themselves to anticipate and dig spikes or receive serves.</li>
             <li><b>Rotational Awareness:</b> Players rotate positions after each serve, ensuring smooth transitions and role adaptation.</li>
         </ul>
 
-        <h2 style="font-size: 30px; font-family: roboto;">3. Is Volley Ball a team game? </h2>
-        <p style="font-size: 18px; font-family: roboto;">
-        Yes, volleyball is a quintessential <b> team sport</b> that requires coordination, communication, and strategy among teammates.</p>
+        <h2 class="section-title">3. Is Volley Ball a team game? </h2>
+        <p class="section-description">Yes, volleyball is a quintessential <b> team sport</b> that requires coordination, communication, and strategy among teammates.</p>
 
-        <h2 style="margin-top: 15px; font-size: 30px; font-family: roboto;">4. Rules of the Game</h2>
-        <ul style="margin: 15px; list-style-type: disc;font-size: 18px; font-family: roboto;">
-            <li><b> Scoring System:</b> Matches are played best-of-five sets. A team needs <b> 25 points to win a set,</b> with at least a 2-point lead. The fifth set, if required, goes to 15 points.</li>
+        <h2 class="section-title">4. Rules of the Game</h2>
+        <ul class="rules-list sp-list">
+            <li><b>Scoring System:</b> Matches are played best-of-five sets. A team needs <b> 25 points to win a set,</b> with at least a 2-point lead. The fifth set, if required, goes to 15 points.</li>
             <li><b>Maximum Hits:</b> Teams are allowed a maximum of <b>3 touches</b> to return the ball over the net.</li>
             <li><b>Rotation:</b> Players rotate positions clockwise after winning a serve.</li>
             <li><b>Boundaries:</b> The ball must land within the court boundaries to count as a point.</li>
-            <li><b>Faults:</b> Points are lost for double hits, carrying the ball, stepping on the service line, or net violations.
-            </li>
+            <li><b>Faults:</b> Points are lost for double hits, carrying the ball, stepping on the service line, or net violations.</li>
         </ul>
 
-        <h2 style="margin-top: 15px;font-size: 30px; font-family: roboto;">5. Important Facts about Volley Ball</h2>
+        <h2 class="section-title">5. Important Facts about Volley Ball</h2>
 
-        <ul style="margin: 15px; list-style-type: disc; font-size: 18px; font-family: roboto;">
-            <li style="font-size: 18px; font-family: roboto;"><b>Origin:</b>  Volleyball was invented by William G. Morgan in 1895 in Massachusetts, USA, as a less strenuous alternative to basketball.
-            </li>
-            <li style="font-size: 18px; font-family: roboto;">Olympic Sport: Volleyball has been part of the Summer Olympics since 1964 for both men and women.</li>
-                       
-            <li style="font-size: 18px; font-family: roboto;"><b>Special Tournaments:</b>
-                <ul style="list-style-type: disc; font-size: 18px; font-family: roboto;">
+        <ul class="facts-list sp-list">
+            <li><b>Origin:</b> Volleyball was invented by William G. Morgan in 1895 in Massachusetts, USA, as a less strenuous alternative to basketball.</li>
+            <li>Olympic Sport: Volleyball has been part of the Summer Olympics since 1964 for both men and women.</li>
+
+            <li><b>Special Tournaments:</b>
+                <ul class="tournament-list">
                     <li>FIVB Volleyball World Championship (every 4 years).</li>
                     <li>Volleyball Nations League (annual event).</li>
                     <li>Olympic Volleyball Tournaments.</li>
-                 </ul>
-                 <li><b>Beach Volleyball:</b> A popular variation played on sand with 2 players per team.</li>
-            </ul>
+                </ul>
             </li>
+            <li><b>Beach Volleyball:</b> A popular variation played on sand with 2 players per team.</li>
         </ul>
 
-        <h2 style="margin-top: 15px; font-size: 30px; font-family: roboto;">6. Records and Statistics</h2>
+        <h2 class="section-title">6. Records and Statistics</h2>
 
-        <ul style="margin: 15px; list-style-type: disc; font-size: 18px; font-family: roboto;">
+        <ul class="records-list sp-list">
             <li>Most Olympic Gold Medals (Men): The Soviet Union and Brazil dominate.</li>
             <li>Most Olympic Gold Medals (Women): Brazil and the Soviet Union are leading.</li>
             <li>Longest Match: The longest recorded match lasted over 5 hours (Independence Cup, 2016).</li>
-            <li>Fastest Spike: Ivan Zaytsev (Italy) recorded a spike at 134 km/h.
-            </li>
-
+            <li>Fastest Spike: Ivan Zaytsev (Italy) recorded a spike at 134 km/h.</li>
         </ul>
 
-        <h2 style="margin-top: 15px; font-size: 30px; font-family: roboto;">7. Countries Playing Volley Ball</h2>
+        <h2 class="section-title">7. Countries Playing Volley Ball</h2>
 
-        <p style="font-size: 18px; font-family: roboto;">Volleyball is played in almost every country, with notable success in:</p>
+        <p class="section-description">Volleyball is played in almost every country, with notable success in:</p>
 
-        <ul style="margin: 15px; list-style-type: disc;font-size: 18px; font-family: roboto;">
-       
+        <ul class="countries-list sp-list">
             <li><b>Europe:</b> Italy, Russia, Poland, Serbia.</li>
             <li><b>Americas:</b> USA, Brazil, Argentina, Cuba.</li>
-            <li><b>Asia:</b>  Japan, China, South Korea, Iran.</li>
+            <li><b>Asia:</b> Japan, China, South Korea, Iran.</li>
             <li><b>Africa:</b> Egypt, Cameroon, Tunisia.</li>
-            </ul>
+        </ul>
     </div>
-            
-    <div class="container-fluid" style="background-color: rgb(207, 113, 118)">
-            <h2 style="text-align: center; color: rgb(0, 0, 0); font-size: 30px; margin-left: 350px;" >World's Famous Volley Ball Players</h2>
-            
-            <div class="images" style="display: flex; flex-wrap: wrap; gap: 20px; margin-left: 45px;">
+</div>
 
-                <div class="player" style="text-align: center; font-size: 16px;">
-            <img src="./Assets/images/giba.jpg" alt="" width="200px" height="200px">
-            <p>Giba</p>
-        </div>
+        
+    <div>
+        <h2 style="text-align: center;">World's Famous Volley Ball Players</h2>
+        
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-left: 45px;">
 
-        <div class="player" style="text-align: center;">
-            <img src="./Assets/images/Ivan Zaytsev.jpg" alt="" width="200px" height="200px">
-            <p>Ivan Zaytsev </p>
+            <div style="text-align: center;">
+                <img src="./Assets/images/giba.jpg" alt="" width="200px" height="200px">
+                <p>Giba</p>
             </div>
 
-            <div class="player" style="text-align: center;">
-            <img src="./Assets/images/Karch Kiraly.jpg" alt="" width="200px" height="200px">
-            <p>Karch Kiraly </p>
+            <div style="text-align: center;">
+                <img src="./Assets/images/Ivan Zaytsev.jpg" alt="" width="200px" height="200px">
+                <p>Ivan Zaytsev</p>
             </div>
 
-            <div class="player" style="text-align: center;">
-            <img src="./Assets/images/Kim Yeon-koung.jpg" alt="" width="200px" height="200px">
-            <p>Kim Yeon-koung </p>
-                </div>
+            <div style="text-align: center;">
+                <img src="./Assets/images/Karch Kiraly.jpg" alt="" width="200px" height="200px">
+                <p>Karch Kiraly</p>
+            </div>
 
-            <div class="player" style="text-align: center;">
-            <img src="./Assets/images/Zhu ting.jpg" alt="" width="200px" height="200px">
-            <p> Zhu Ting </p>
-        </div>
+            <div style="text-align: center;">
+                <img src="./Assets/images/Kim Yeon-koung.jpg" alt="" width="200px" height="200px">
+                <p>Kim Yeon-koung</p>
+            </div>
+
+            <div style="text-align: center;">
+                <img src="./Assets/images/Zhu ting.jpg" alt="" width="200px" height="200px">
+                <p>Zhu Ting</p>
+            </div>
 
         </div>
-        </div>
+    </div>
+</div>
 
-        <!-- Footer -->
+
+     <!-- Footer -->
 <footer class="text-center text-lg-start bg-dark bg-body-tertiary text-light">
   <!-- Section: Social media -->
   <!-- <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -169,19 +256,37 @@
           <p>
             <a href="#"  class="text-reset" data-bs-toggle="modal" data-bs-target="#exampleModal">Guest Book</a>
             <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Guest Book</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Name</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=name>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Feedback</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Review:</label>
+                      <input type="checkbox">Excellent
+                      <input type="checkbox">Good
+                      <input type="checkbox">Average
+                      <input type="checkbox">Fair
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="submit()">Submit</button>
       </div>
     </div>
   </div>
@@ -240,8 +345,12 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
-    
+      
 
-    <script src="Bootstrap\js\bootstrap.bundle.min.js"></script>
+
+
+
+    <script src="./Bootstrap/js/bootstrap.min.js"></script>
+<script src="./Bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

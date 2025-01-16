@@ -1,0 +1,77 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #14c2f7; /* Light background color for the body */
+    /* color: #ffffff; */
+}
+
+/* Container Styles */
+.sports-section {
+     /* Background color for the container */
+    padding : 20px; /* Padding around the container */
+}
+
+/* Title Styles */
+.sport-title {
+    /* color: rgb(255, 255, 255); Title color */
+    font-size: 40px; /* Title font size */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Section Title Styles */
+.section-title {
+    font-size: 30px; /* Font size for section titles */
+    /* color: rgb(0, 0, 0); Section title color */
+    margin-top: 30px; /* Space above section titles */
+}
+
+/* Description Styles */
+.section-description {
+    font-size: 18px; /* Font size for descriptions */
+    /* color: rgb(0, 0, 0); Description color */
+    margin-bottom: 15px; /* Space below descriptions */
+}
+
+/* List Styles */
+.sp-list  {
+    margin: 15px 0; /* Margin for lists */
+    padding-left: 20px; /* Indent lists */
+    font-size: 18px; /* Font size for list items */
+    /* color: rgb(0, 0, 0); List item color */
+}
+
+/* Nested List Styles */
+.tournament-list {
+    list-style-type: circle; /* Circle bullets for nested lists */
+    margin-left: 20px; /* Indent nested lists */
+}
+.sp-img{
+  background-image: url("../images/slider-football.jpg"); 
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    height: 400px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    color:#242525;
+    
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sport-title {
+        font-size: 32px; /* Smaller title font size on small screens */
+    }
+
+    .section-title {
+        font-size: 24px; /* Smaller section title font size on small screens */
+    }
+
+    .section-description,
+    .sp-list li {
+        font-size: 16px; /* Smaller font size for text on small screens */
+    }
+}

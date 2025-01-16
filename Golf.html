@@ -4,101 +4,196 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOLF</title>
-    <link rel="stylesheet" href="Assets/css/golf.css">
-    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap\css\bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/css/sports.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
-   <div class="container-fluid" style="background-color: rgb(207, 113, 118)">
 
-    <h1 class="head" style="margin-left: 75px; margin-top: 20px;
-    color: rgb(0, 0, 0); font-size: 40px; font-family: roboto">GOLF</h1>
-
-    <div class="start" style="color: rgb(0, 0, 0);">
-
-    <h2 style="font-size: 30px; font-family: roboto;">1. Number of Players</h2>
-
-    <p style="font-size: 18px; font-family: roboto">Golf is primarily an individual sport. However, team formats like the Ryder Cup or Four-Ball exist. Typically, players compete individually against others, although team games can involve 2-4 players per team.</p>
-
-    <h2 style="margin-top: 30px; font-size: 32px; font-family: roboto;">2. Strategy of the Game</h2>
-    <ul style="margin: 15px; list-style-type: disc; font-size: 18px; font-family: roboto;">
-        <li><b>Accuracy Over Power:</b> Players aim for precision over distance in many cases, especially on challenging courses.</li>
-        <li><b>Course Management:</b> Understanding the course layout, hazards, and weather conditions is key.</li>
-        <li><b>Club Selection:</b> Choosing the right club for the shot is critical, considering the distance, wind, and terrain</li>
-        <li><b>Mental Toughness:</b> Maintaining focus and composure over several hours is vital in golf.
-        </li>
-    </ul>
-
-    <h2 style="font-size: 30px; font-family: roboto;">3. Is Golf a team game?</h2>
-
-    <p style="font-size: 18px; font-family: roboto;">Golf is primarily an individual sport, but there are team-based competitions, such as:</p>
-
-    <ul style="font-size: 18px; font-family: roboto;">
-        <li><b>Ryder Cup:</b> Europe vs. USA.</li>
-        <li><b>Solheim Cup:</b> Female equivalent of the Ryder Cup.</li>
-        <li><b>President's Cup:</b> USA vs. International Team (excluding Europe).</li>
-    </ul>
-
-
-
-    <h2 style="margin-top: 15px; font-size: 30px; font-family: roboto;">4. Rules of the Game</h2>
-    <ul style="margin: 15px; list-style-type: disc; font-size: 18px; font-family: roboto;">
-        <li><b>Objective:</b> Hit the ball into the hole in as few strokes as possible.</li>
-        <li><b>Course Structure:</b> Typically, an 18-hole course. Par for each hole varies, generally between 3 and 5 strokes.</li>
-    <li><b>Scoring:</b>
-        <ul style="list-style-type: disc; font-size: 18px; font-family: roboto;">
-            <li><b>Birdie:</b> 1 stroke under par.</li>
-            <li><b>Eagle:</b> 2 strokes under par.</li>
-            <li><b>Bogey:</b> 1 stroke over par.</li>
+  <nav>
+    <div class="upper-section">
+        <div class="logo-container">
+           <a href="index.html"><img src="Assets\images\SportsInfo__1_-removebg-preview.png" alt="logo"></a> 
+        </div>
+        <div class="search-container">
+          <div class="dropdown">
+            <input class="search-box dropbtn" type="text" placeholder="Search...">
+            <div class="dropdown-content">
+              <a class="dropdown-item" href="football.html">Football</a>
+              <a class="dropdown-item" href="judo.html">Judo</a>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <a class="dropdown-item" href="tennis.html">Tennis</a>
+              <a class="dropdown-item" href="motorcycle.html">Motorcycle Racing</a>
+              <a class="dropdown-item" href="Volleyball.html">Volleyball</a>
+              <a class="dropdown-item" href="Golf.html">Golf</a>
+              <a class="dropdown-item" href="Chess.html">Chess</a>
+              <a class="dropdown-item" href="Billiards.html">Billiards</a>
+              <a class="dropdown-item" href="badminton.html">Badminton</a>
+              <a class="dropdown-item" href="swimming.html">Swimming</a>
+              <a class="dropdown-item" href="athletics.html">Athletics</a>
+            </div>
+          </div>
+          
+            <button type="submit" class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <!-- <input type="checkbox" id="check"> -->
+        <!-- <label for="check" class="checkbtn"><i class="fa-solid fa-bars"></i></label> -->
+    </div>
+    <div class="lower-section">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="fa-solid fa-bars"></i></label>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Categories</a>
+                <div class="dropdown-content">
+                  <a class="dropdown-item" href="football.html">Football</a>
+                  <a class="dropdown-item" href="judo.html">Judo</a>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <a class="dropdown-item" href="tennis.html">Tennis</a>
+                  <a class="dropdown-item" href="motorcycle.html">Motorcycle Racing</a>
+                  <a class="dropdown-item" href="Volleyball.html">Volleyball</a>
+                  <a class="dropdown-item" href="Golf.html">Golf</a>
+                  <a class="dropdown-item" href="Chess.html">Chess</a>
+                  <a class="dropdown-item" href="Billiards.html">Billiards</a>
+                  <a class="dropdown-item" href="badminton.html">Badminton</a>
+                  <a class="dropdown-item" href="swimming.html">Swimming</a>
+                  <a class="dropdown-item" href="athletics.html">Athletics</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Guest Book</a>
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Guest Book</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input type="email" class="form-control" id="nameInput">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="emailInput">
+        </div>
+        <div class="mb-3">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Date of Visit</label>
+            <input type="date" class="form-control" id="dateInput">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Address</label>
+            <input type="text" class="form-control" id="addressInput1">
+          </div>
+          <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Review:</label><br>
+          <input type="radio" name="options" value="option1">Excellent<br>
+          <input type="radio" name="options" value="option1">Good<br>
+          <input type="radio" name="options" value="option1">Average<br>
+          <input type="radio" name="options" value="option1">Fair
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="submit()">Submit</button>
+      </div>
+    </div>
+  </div>
+</div></li>
         </ul>
-        <li><b>Out of Bounds:</b> Stroke penalty for hitting the ball out of play.</li>
-        <li><b>Etiquette:</b> Players must respect others by being quiet during shots and repairing the course as needed.</li>
-    </li>
-    </ul>
+    </div>
+</nav>
 
-    <h2 style="margin-top: 15px; font-size: 30px; font-family: roboto;">5. Important Facts about Golf</h2>
-    
-    <ul style="margin: 15px; list-style-type: disc; font-size: 18px; font-family: roboto;">
-        <li style="font-size: 18px; font-family: roboto;"><b>Origins:</b> Golf originated in <b> Scotland</b> in the 15th century.</li>
-   
-        <li style="font-size: 18px; font-family: roboto;"><b>Major Tournaments:</b>
-            <ul style="list-style-type: disc;font-size: 18px; font-family: roboto;">
-                <li><b>The Masters:</b> Played in Augusta, Georgia, USA.</li>
-                <li><b>The Open Championship:</b> Oldest major, also known as The British Open.</li>
-                <li><b>U.S. Open:</b> Held annually in the United States.</li>
-                <li><b>PGA Championship:</b> Organized by the Professional Golfers' Association of America.</li>
-             </ul>
-             <li><b>Olympics:</b> Reintroduced in 2016 after a long hiatus.</li>
-             <li><b>Famous Players:</b> Tiger Woods, Jack Nicklaus, Arnold Palmer.</li>
+  <div class="container-fluid sports-section">
+
+    <div class="container-fluid sp-img"><h1 class="sport-title">GOLF</h1></div>
+
+    <div class="sport-content">
+        <h2 class="section-title">1. Number of Players</h2>
+        <p class="section-description">Golf is primarily an individual sport. However, team formats like the Ryder Cup or Four-Ball exist. Typically, players compete individually against others, although team games can involve 2-4 players per team.</p>
+
+        <h2 class="section-title">2. Strategy of the Game</h2>
+        <ul class="strategy-list sp-list">
+            <li><b>Accuracy Over Power:</b> Players aim for precision over distance in many cases, especially on challenging courses.</li>
+            <li><b>Course Management:</b> Understanding the course layout, hazards, and weather conditions is key.</li>
+            <li><b>Club Selection:</b> Choosing the right club for the shot is critical, considering the distance, wind, and terrain.</li>
+            <li><b>Mental Toughness:</b> Maintaining focus and composure over several hours is vital in golf.</li>
         </ul>
-        </li>
-    </ul>
 
-    <h2 style="margin-top: 15px; font-size: 30px; font-family: roboto;">6. Records and Statistics</h2>
+        <h2 class="section-title">3. Is Golf a team game?</h2>
+        <p class="section-description">Golf is primarily an individual sport, but there are team-based competitions, such as:</p>
 
-    <ul style="margin: 15px; list-style-type: disc; font-size: 18px; font-family: roboto;">
-        <li><b>Most Major Wins:</b> Jack Nicklaus (18 majors).</li>
-        <li><b>Lowest Score in a Major:</b> 63 (achieved multiple times).</li>
-        <li><b>Longest Drive:</b> Mike Austin (515 yards, 1974).</li>
-        <li><b>First Female Pro:</b> Babe Didrikson Zaharias.</li>
-        <li><b>Youngest Major Winner:</b> Young Tom Morris (17 years old).</li>
-    </ul>
+        <ul class="sp-list">
+            <li><b>Ryder Cup:</b> Europe vs. USA.</li>
+            <li><b>Solheim Cup:</b> Female equivalent of the Ryder Cup.</li>
+            <li><b>President's Cup:</b> USA vs. International Team (excluding Europe).</li>
+        </ul>
 
-    <h2 style="margin-top: 15px; font-size: 30px; font-family: roboto;">7. Countries Playing Golf</h2>
-    <p style="font-size: 18px; font-family: roboto;">
-    Golf is played worldwide, but some of the prominent golfing nations include:</p>
+        <h2 class="section-title">4. Rules of the Game</h2>
+        <ul class="rules-list sp-list">
+            <li><b>Objective:</b> Hit the ball into the hole in as few strokes as possible.</li>
+            <li><b>Course Structure:</b> Typically, an 18-hole course. Par for each hole varies, generally between 3 and 5 strokes.</li>
+            <li><b>Scoring:</b>
+                <ul class="sp-list">
+                    <li><b>Birdie:</b> 1 stroke under par.</li>
+                    <li><b>Eagle:</b> 2 strokes under par.</li>
+                    <li><b>Bogey:</b> 1 stroke over par.</li>
+                </ul>
+            </li>
+            <li><b>Out of Bounds:</b> Stroke penalty for hitting the ball out of play.</li>
+            <li><b>Etiquette:</b> Players must respect others by being quiet during shots and repairing the course as needed.</li>
+        </ul>
 
-    <ul style="margin: 15px; list-style-type: disc; font-size: 18px; font-family: roboto;">
-        <li>USA</li>
-        <li>Scotland</li>
-        <li>England</li>
-        <li>Australia</li>
-        <li>South Africa</li>
-        <li>Japan</li>
-        <li>South Korea</li>
-        <li>Canada</li>
-        
-    </ul>
+        <h2 class="section-title">5. Important Facts about Golf</h2>
+        <ul class="facts-list sp-list">
+            <li><b>Origins:</b> Golf originated in <b>Scotland</b> in the 15th century.</li>
+            <li><b>Major Tournaments:</b>
+                <ul class="tournament-list">
+                    <li><b>The Masters:</b> Played in Augusta, Georgia, USA.</li>
+                    <li><b>The Open Championship:</b> Oldest major, also known as The British Open.</li>
+                    <li><b>U.S. Open:</b> Held annually in the United States.</li>
+                    <li><b>PGA Championship:</b> Organized by the Professional Golfers' Association of America.</li>
+                </ul>
+            </li>
+            <li><b>Olympics:</b> Reintroduced in 2016 after a long hiatus.</li>
+            <li><b>Famous Players:</b> Tiger Woods, Jack Nicklaus, Arnold Palmer.</li>
+        </ul>
+
+        <h2 class="section-title">6. Records and Statistics</h2>
+        <ul class="records-list sp-list">
+            <li><b>Most Major Wins:</b> Jack Nicklaus (18 majors).</li>
+            <li><b>Lowest Score in a Major:</b> 63 (achieved multiple times).</li>
+            <li><b>Longest Drive:</b> Mike Austin (515 yards, 1974).</li>
+            <li><b>First Female Pro:</b> Babe Didrikson Zaharias.</li>
+            <li><b>Youngest Major Winner:</b> Young Tom Morris (17 years old).</li>
+        </ul>
+
+        <h2 class="section-title">7. Countries Playing Golf</h2>
+        <p class="section-description">Golf is played worldwide, but some of the prominent golfing nations include:</p>
+
+        <ul class="countries-list sp-list">
+            <li>USA</li>
+            <li>Scotland</li>
+            <li>England</li>
+            <li>Australia</li>
+            <li>South Africa</li>
+            <li>Japan</li>
+            <li>South Korea</li>
+            <li>Canada</li>
+        </ul>
+    </div>
+
 </div>
 
 
@@ -133,130 +228,157 @@
     <img src="./Assets/images/Phil Mickelson.jpg" alt="" width="200px" height="200px">
     <p>Phil Mickelson</p>
 </div>
+        
+     <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark bg-body-tertiary text-light">
+  <!-- Section: Social media -->
+  <!-- <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
-   <!-- Footer -->
-   <footer class="text-center text-lg-start bg-dark bg-body-tertiary text-light">
-    <!-- Section: Social media -->
-    <!-- <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-  
-    </section> -->
-  
-    <!-- Section: Links  -->
-    <section class="p-1 m-2">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>SportsInfo
-            </h6>
-            
-              <h3 style="font-size: medium;">WELCOME TO OUR WEBSITE</h3>
-              <p>"Welcome to SportsInfo &#8208; Your Ultimate Destination for All Things Sports!</p>
-              <p>Stay ahead of the game with the latest updates, in-depth analysis, and exciting stories from the world of sports. From breaking news to exclusive interviews and expert insights.</p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
-            </h6>
-            <p>
-              <a href="index.html" class="text-reset">Home</a>
-            </p>
-            <p>
-              <a href="about.html" class="text-reset">About</a>
-            </p>
-            <p>
-              <a href="index.html" class="text-reset">Categories</a>
-            </p>
-            <p>
-              <a href="contact.html" class="text-reset">Contact</a>
-            </p>
-            <p>
-              <a href="#"  class="text-reset" data-bs-toggle="modal" data-bs-target="#exampleModal">Guest Book</a>
-              <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </section> -->
+
+  <!-- Section: Links  -->
+  <section class="p-1 m-2">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>SportsInfo
+          </h6>
+          
+            <h3 style="font-size: medium;">WELCOME TO OUR WEBSITE</h3>
+            <p>"Welcome to SportsInfo &#8208; Your Ultimate Destination for All Things Sports!</p>
+            <p>Stay ahead of the game with the latest updates, in-depth analysis, and exciting stories from the world of sports. From breaking news to exclusive interviews and expert insights.</p>
         </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="index.html" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="about.html" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="index.html" class="text-reset">Categories</a>
+          </p>
+          <p>
+            <a href="contact.html" class="text-reset">Contact</a>
+          </p>
+          <p>
+            <a href="#"  class="text-reset" data-bs-toggle="modal" data-bs-target="#exampleModal">Guest Book</a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Guest Book</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Name</label>
+                      <input type="email" class="form-control" id="nameInput">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="emailInput">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Date of Visit</label>
+                      <input type="date" class="form-control" id="dateInput">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="addressInput">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Review:</label><br>
+                      <input type="radio">Excellent<br>
+                      <input type="radio">Good<br>
+                      <input type="radio">Average<br>
+                      <input type="radio">Fair
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="submit()">Submit</button>
       </div>
     </div>
   </div>
-            </p>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
-            <p><i class="fas fa-home me-3"></i> Aptech, Shahra-e-Faisal, Karachi</p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              123@gmail.com
-            </p>
-            <p><i class="fas fa-phone me-3"></i> 01 234 567 88</p>
-            <p><i class="fas fa-print me-3"></i> 01 234 567 89</p>
-  
-              <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <!-- Right -->
-          </div>
-          <!-- Grid column -->
+</div>
+          </p>
         </div>
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links  -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2025 Copyright:
-      <a class="text-reset fw-bold" href="index.html">SportsInfo.com</a>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+          <p><i class="fas fa-home me-3"></i> Aptech, Shahra-e-Faisal, Karachi</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            123@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> 01 234 567 89</p>
+
+            <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
     </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-        
+    <!-- Right -->
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2025 Copyright:
+    <a class="text-reset fw-bold" href="index.html">SportsInfo.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+      
+
+
   
-  
 
 
- <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
-
+<script src="./Bootstrap/js/bootstrap.min.js"></script>
+<script src="./Bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
