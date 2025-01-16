@@ -59,7 +59,37 @@ body {
     color:#242525;
     
 }
-
+.volleyball-img{
+    background-image: url("../images/volleyball.jpg"); 
+}
+.golf-img{
+    background-image: url("../images/golf.jpg"); 
+}
+.tennis-img{
+    background-image: url("../images/tennis.jpg"); 
+    
+}
+.swimming-img{
+    background-image: url("../images/swimming.jpg"); 
+}
+.motorcycle-img{
+    background-image: url("../images/motorcycle\ racing.jpg"); 
+}
+.judo-img{
+    background-image: url("../images/judo.jpg"); 
+}
+.chess-img{
+    background-image: url("../images/chess.jpg"); 
+}
+.billiards-img{
+    background-image: url("../images/biiliards.jpg"); 
+}
+.badminton-img{
+    background-image: url("../images/badminton.jpg"); 
+}
+.athletics-img{
+    background-image: url("../images/slider-athletics.jpg"); 
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
     .sport-title {
